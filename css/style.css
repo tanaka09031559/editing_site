@@ -106,11 +106,18 @@ form {
   margin-top: 0.5em;
 }
 
-.business-hours th,
+.business-hours th {
+  background-color: #333366;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border: 1.5px solid #666699;
+}
+
 .business-hours td {
-  border: 1px solid #ddd;
-  padding: 0.5em;
-  text-align: left;
+  padding: 10px;
+  text-align: center;
+  border: 1.5px solid #666699;
 }
 
 footer {
